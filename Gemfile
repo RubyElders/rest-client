@@ -1,10 +1,8 @@
 source "https://rubygems.org"
 
-if !!File::ALT_SEPARATOR
-  gemspec :name => 'rest-client.windows'
-else
-  gemspec :name => 'rest-client'
-end
+gemspec name: 'ryba'
+
+gem 'base64'
 
 group :test do
   gem 'rake'
