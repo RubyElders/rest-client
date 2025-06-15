@@ -1,8 +1,8 @@
 source "https://rubygems.org"
 
-gemspec name: 'ryba'
+gemspec
 
-gem 'base64'
+gem 'base64' # indirect webmock 2 dependency
 
 group :test do
   gem 'rake'
